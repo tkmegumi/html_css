@@ -67,6 +67,7 @@
 
   &__foot {
     display: flex;
+    margin-bottom: 14px;
     color: rgb(106, 110, 113);
 
     @include media-query(lg) {

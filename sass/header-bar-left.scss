@@ -5,13 +5,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 14px;
 
   @include media-query(lg) {
     width: auto;
     height: auto;
-    margin-right: 50px;
-    margin-bottom: 0px;
     flex-direction: row;
     -webkit-box-align: stretch;
     align-items: stretch;

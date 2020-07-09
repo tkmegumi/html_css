@@ -2,7 +2,6 @@
 
 .header-bar-right {
   width: 100vw;
-  margin-left: -17px;
   display: flex;
   box-sizing: border-box;
   overflow: auto;
@@ -10,17 +9,16 @@
   @include media-query(lg) {
     flex-shrink: 0;
     width: auto;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-right: 0px;
   }
 
   &__inner {
     flex-shrink: 0;
+    margin-left: -17px;
     padding: 0px 17px;
 
     @include media-query(lg) {
-      padding: 0;
+      margin-left: 0px;
+      padding: 10px 0 0;
     }
   }
 
