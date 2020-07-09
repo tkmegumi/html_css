@@ -1,0 +1,15 @@
+@import "./sass/**";
+
+body {
+  font-family: Helvetica, Arial, "Lucida Grande", 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: #45494B;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  font-size: 100%;
+  &:link, &:visited {
+    text-decoration: none;
+  }
+}

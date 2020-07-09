@@ -1,0 +1,32 @@
+@import 'variables';
+
+.nav-right-item {
+  position: relative;
+  height: 100%;
+
+  &__link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: 3px 0;
+    font-size: 20px;
+    line-height: 44px;
+    color: #ccc;
+    text-align: center;
+  }
+
+  &__link-profile {
+    display: block;
+    margin: 3px 0 3px 4px;
+    padding: 6px;
+  }
+
+  &__link-profile-image {
+    width: 32px;
+    height: 32px;
+    background-image: url("https://dubpy8abnqmkw.cloudfront.net/images/anonymous/anonymous.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+  }
+}
