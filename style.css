@@ -1,0 +1,534 @@
+@charset "UTF-8";
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left-text {
+    padding-bottom: 17px;
+  }
+}
+
+.header-bar-left-text__head {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left-text__head {
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 6px;
+    height: auto;
+  }
+}
+
+.header-bar-left-text__company-name {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 11px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left-text__company-name {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-right: 12px;
+  }
+}
+
+.header-bar-left-text__company-name-link {
+  color: #24282A;
+}
+
+.header-bar-left-text__follow-button {
+  min-width: 120px;
+  height: 32px;
+  color: #45494b;
+  display: flex;
+  margin-top: 13px;
+  margin-left: auto;
+  padding: 0px 19px;
+  border: 1px solid #45494b;
+  border-radius: 22px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left-text__follow-button {
+    display: none;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+.header-bar-left-text__foot {
+  display: flex;
+  color: #6a6e71;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left-text__foot {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left-text__follow-button-wrapper {
+    display: flex;
+    margin-right: 10px;
+  }
+}
+
+.header-bar-left-text__follow-button-inner {
+  display: none;
+  min-width: 120px;
+  height: 32px;
+  padding: 0px 19px;
+  border: 1px solid #45494b;
+  border-radius: 22px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #45494b;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header-bar-left-text__follow-button-inner:hover {
+  background-color: #ebedef;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left-text__follow-button-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 90px;
+    height: 26px;
+    box-sizing: border-box;
+  }
+}
+
+.header-bar-left-text__official-link {
+  font-size: 13px;
+  margin-right: 14px;
+  max-width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #45494b;
+  overflow: hidden;
+}
+
+.header-bar-left-text__company-location {
+  font-size: 13px;
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.header-bar-left-text__company-location-icon {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.header-bar-left {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left {
+    width: auto;
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+  }
+}
+
+.header-bar-left__icon {
+  flex-shrink: 0;
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  width: 75px;
+  height: 75px;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left__icon {
+    position: relative;
+    top: 0px;
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border: none;
+    overflow: visible;
+  }
+}
+
+.header-bar-left__icon-inner {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-left__icon-inner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+
+.header-bar-left__icon-image {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=200,dh=200,da=l,ds=s,cw=200,ch=200,cc=FFFFFF)/assets/images/32440/original/e2446995-eb76-4a5a-8565-e5a3a24305b9.jpeg?1438331029");
+  background-size: contain;
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header-bar-right {
+  width: 100vw;
+  margin-left: -17px;
+  display: flex;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-right {
+    flex-shrink: 0;
+    width: auto;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+}
+
+.header-bar-right__inner {
+  flex-shrink: 0;
+  padding: 0px 17px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-right__inner {
+    padding: 0;
+  }
+}
+
+.header-bar-right__nav {
+  display: inline-flex;
+  padding-bottom: 1px;
+}
+
+.header-bar-right__nav-link {
+  display: inline-block;
+  flex-shrink: 0;
+  position: relative;
+  margin-right: 18px;
+  padding: 13px 0px;
+  font-weight: 500;
+  color: #9da0a4;
+  cursor: pointer;
+}
+
+.header-bar-right__nav-link:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.header-bar-right__nav-link:first-child {
+  font-weight: 600;
+  color: #45494b;
+}
+
+.header-bar-right__nav-link:first-child:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  width: 18px;
+  height: 2px;
+  background-color: #45494b;
+  border-radius: 1px;
+  transform: translateX(-50%);
+}
+
+.header-bar-right__nav-link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-bar-right__nav-link {
+    padding: 8px 0px;
+    color: #24282a;
+    transition: opacity 100ms ease 0s;
+  }
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ebedef;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 80px;
+    border-style: none;
+  }
+}
+
+.header__image {
+  width: 100%;
+  height: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__image {
+    height: 400px;
+    margin-top: 100px;
+  }
+}
+
+.header__image-inner {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=2560,dh=800,da=s,ds=s,cw=2560,ch=800,cc=FFFFFF)/assets/images/32441/original/b9c46741-94d8-4b0b-8a81-1299143cad08.jpeg?1438331029");
+  background-size: cover;
+  background-position: center center;
+}
+
+.header__bar {
+  background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    box-shadow: none;
+    transform: none;
+    z-index: 20;
+  }
+}
+
+.header__bar-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 17px;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__bar-inner {
+    width: 980px;
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin: 0px auto;
+    padding: 25px 0px 0px;
+  }
+}
+
+.mission {
+  margin-top: 0px;
+  margin: 0px 17px;
+}
+
+.mission__text {
+  width: 100%;
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(0, 0, 0, 0.56);
+  text-align: left;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  outline: none;
+}
+
+.nav-left-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-left-item:first-child {
+  width: 64px;
+}
+
+.nav-left-item:last-child {
+  width: 84px;
+}
+
+.nav-left-item__link {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #9DA0A4;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.nav-left-item__link-inner {
+  display: inline-block;
+  line-height: 48px;
+}
+
+.nav-right-item {
+  position: relative;
+  height: 100%;
+}
+
+.nav-right-item__link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: 3px 0;
+  font-size: 20px;
+  line-height: 44px;
+  color: #ccc;
+  text-align: center;
+}
+
+.nav-right-item__link-profile {
+  display: block;
+  margin: 3px 0 3px 4px;
+  padding: 6px;
+}
+
+.nav-right-item__link-profile-image {
+  width: 32px;
+  height: 32px;
+  background-image: url("https://dubpy8abnqmkw.cloudfront.net/images/anonymous/anonymous.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: white;
+  z-index: 10;
+}
+
+.nav__left {
+  display: flex;
+  margin: 0;
+}
+
+.nav__right {
+  display: flex;
+  margin: 0 6px 0 auto;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, "Lucida Grande", 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: #45494B;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  font-size: 100%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
