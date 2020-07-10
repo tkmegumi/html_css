@@ -1,0 +1,13 @@
+@import 'variables';
+
+.meetup-slider-item {
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  width: calc(100% / 1.49);
+  
+  &__link {
+    display: block;
+    margin-right: 16px;
+  }
+}

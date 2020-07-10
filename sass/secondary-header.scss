@@ -1,0 +1,23 @@
+@import 'variables';
+
+.secondary-header {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(157, 160, 164);
+
+  &__link {
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 13px;
+    color: #006F8E;
+  }
+
+  &__icon {
+    font-size: 14px;
+    margin-left: 6px;
+    line-height: 23px;
+    opacity: 0.8;
+  }
+}

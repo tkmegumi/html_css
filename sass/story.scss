@@ -1,0 +1,13 @@
+@import 'variables';
+
+.story {
+
+  &__slider {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    overflow-x: hidden;
+  }
+}

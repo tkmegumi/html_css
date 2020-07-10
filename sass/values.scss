@@ -1,0 +1,10 @@
+@import 'variables';
+
+.values {
+
+  &__lists {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
