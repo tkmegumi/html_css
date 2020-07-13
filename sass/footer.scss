@@ -1,0 +1,104 @@
+@import 'variables';
+
+.footer {
+  border-top: 1px solid #e3e3e3;
+  background: #f5f5f5;
+
+  &__app {
+    padding: 30px 20px 15px;
+    border-bottom: 1px solid #e3e3e3;
+    background: #fff;
+  }
+
+  &__app-title {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  &__app-lists {
+    overflow: hidden;
+  }
+
+  &__app-list {
+    float: left;
+    width: 50%;
+    margin-bottom: 15px;
+
+    &:nth-child(even) > a {
+      padding: 0 0 0 48px;
+    }
+
+    &:nth-child(even) > a > img {
+      left: 10px;
+    }
+  }
+
+  &__app-link {
+    display: table;
+    padding: 0 10px 0 38px;
+    position: relative;
+    padding-left: 38px;
+    height: 32px;
+    font-size: 11px;
+    color: #24282A;
+  }
+
+  &__app-image {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+  }
+
+  &__app-name {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  &__menu-top {
+    padding: 30px 0 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+  }
+
+  &__top-list {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+
+    &:nth-child(even) > a {
+      padding: 0 0 0 10px;
+    }
+  }
+
+  &__top-link {
+    padding-right: 10px;
+    line-height: 1.3;
+    display: block;
+    font-size: 12px;
+    color: #6A6E71;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__menu-bottom {
+    padding: 20px;
+    text-align: center;
+  }
+
+  &__bottom-list {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  &__bottom-link {
+    font-size: 12px;
+    color: #6A6E71;
+  }
+}

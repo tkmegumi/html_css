@@ -1,8 +1,12 @@
 @import 'variables';
 
 .values {
-  display: flex;
-  flex-direction: column;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+  }
 
   &__list {
     display: flex;

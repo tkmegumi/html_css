@@ -2,6 +2,10 @@
 
 .company {
 
+  &__inner {
+    margin: 0 16px;
+  }
+
   &__title {
     display: flex;
     -webkit-box-pack: start;
