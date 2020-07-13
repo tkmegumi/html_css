@@ -17,11 +17,11 @@
   }
 
   &__app-lists {
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &__app-list {
-    float: left;
     width: 50%;
     margin-bottom: 15px;
 
@@ -60,15 +60,15 @@
   }
 
   &__menu-top {
+    display: flex;
+    flex-wrap: wrap;
     padding: 30px 0 20px;
-    margin: 0 20px;
+    margin: 0 20px 20px;
     border-bottom: 1px solid #e3e3e3;
-    overflow: hidden;
   }
 
   &__top-list {
     width: 50%;
-    float: left;
     margin-bottom: 10px;
 
     &:nth-child(even) > a {
@@ -88,6 +88,7 @@
   }
 
   &__menu-bottom {
+    margin-top: 20px;
     padding: 20px;
     text-align: center;
   }

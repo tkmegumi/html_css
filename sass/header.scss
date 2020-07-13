@@ -40,8 +40,6 @@
       width: 100%;
       min-height: 100px;
       height: auto;
-      box-shadow: none;
-      transform: none;
       z-index: 20;
     }
   }
@@ -56,9 +54,7 @@
       height: auto;
       box-sizing: border-box;
       flex-direction: row;
-      -webkit-box-pack: justify;
       justify-content: space-between;
-      -webkit-box-align: stretch;
       align-items: stretch;
       margin: 0px auto;
       padding: 25px 0px 0px;

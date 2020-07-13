@@ -8,7 +8,6 @@
 
   &__card {
     flex-shrink: 0;
-    -webkit-box-flex: 0;
     flex-grow: 0;
     width: calc((100% - 8px) / 1.5);
     height: 282px;
@@ -17,7 +16,5 @@
     margin-bottom: 80px;
     padding-top: 10px;
     box-sizing: border-box;
-    transform: translateY(0px);
-    transition: transform 200ms ease-out 0s, box-shadow 200ms ease-out 0s;
   }
 }
