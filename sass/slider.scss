@@ -1,14 +1,31 @@
 @import 'variables';
 
-.meetup-slider-item-image {
-  width: 100%;
-  height: 140px;
-  background-color: rgb(249, 249, 249);
+.slider {
   position: relative;
-  border-radius: 5px;
-  overflow: hidden;
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
 
-  &__text {
+  &__item {
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    width: calc((100% - 8px) / 1.5);
+    margin-top: 30px;
+    margin-right: 16px;
+    margin-bottom: 60px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &__image-aside {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -17,13 +34,13 @@
     z-index: 1;
   }
 
-  &__shadow {
+  &__image-shadow {
     width: 100%;
     height: 100%;
     background-image: radial-gradient(circle at left top, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0) 129.375px);
   }
 
-  &__content {
+  &__image-text {
     position: absolute;
     top: 11px;
     left: 12px;
@@ -38,14 +55,14 @@
     transform: scale(0.71875);
   }
 
-  &__date {
+  &__image-date {
     font-size: 32px;
     font-weight: 600;
     height: 32px;
     line-height: 32px;
   }
 
-  &__day {
+  &__image-day {
     box-sizing: border-box;
     font-size: 12px;
     font-weight: 600;
@@ -68,18 +85,57 @@
     opacity: 1;
   }
 
-  &__first {
+  &__image-first {
     @extend %__image;
     background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=600,dh=400,da=s,ds=s,cw=600,ch=400,cc=FFFFFF)/assets/images/5232062/original/7bed743a-3a96-422d-8d29-ae2c2fb78f11?1593657348");
   }
 
-  &__second {
+  &__image-second {
     @extend %__image;
     background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=600,dh=400,da=s,ds=s,cw=600,ch=400,cc=FFFFFF)/assets/images/5171279/original/05ec9972-4e5b-43e5-b02f-007ee20cc8fb?1592794558");
   }
 
-  &__third {
+  &__image-third {
     @extend %__image;
     background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=600,dh=400,da=s,ds=s,cw=600,ch=400,cc=FFFFFF)/assets/images/5232132/original/1a56a9f0-6489-46ae-9c4d-fe4ebe701498?1593658054");
+  }
+
+  &__image-fourth {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=600,dh=400,da=s,ds=s,cw=600,ch=400,cc=FFFFFF)/assets/images/5258130/original/a93f43b1-1bf6-45cc-9cd6-02df5e6827c6?1594136089");
+  }
+
+  &__image-fifth {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=600,dh=400,da=s,ds=s,cw=600,ch=400,cc=FFFFFF)/assets/images/5193759/original/ca066dfb-f8a8-43fb-9e15-539dad795ae2?1593515527");
+  }
+
+  &__image-sixth {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=600,dh=400,da=s,ds=s,cw=600,ch=400,cc=FFFFFF)/assets/images/5147053/original/86f933d1-b2de-4cd3-9f38-6b8d45918290?1591951557");
+  }
+
+  &__sub-title {
+    margin-bottom: 6px;
+    padding-top: 12px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1;
+    color: rgb(106, 110, 113);
+  }
+
+  &__main-title {
+    padding-bottom: 12px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.5;
+    font-size: 13px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    max-height: 58.5px;
+    color: rgb(36, 40, 42);
+    overflow: hidden;
+    transition: color 0.2s ease-in-out 0s;
   }
 }

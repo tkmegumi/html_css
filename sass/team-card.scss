@@ -1,0 +1,106 @@
+@import 'variables';
+
+.team-card {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 4px;
+
+  &__image {
+    position: relative;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 160px;
+    overflow: hidden;
+  }
+
+  &__image-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    filter: blur(0px);
+    background: grey;
+  }
+
+  %__image {
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    background-position: center center;
+    transition-property: opacity;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+  }
+
+  &__image-first {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/2153265/original/576491_431417573581105_1207004320_n.jpg?1522150524");
+  }
+
+  &__image-second {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/2072215/original/2741596f-a1a9-4f4f-8f4b-919a8efee6c4?1519291751");
+  }
+
+  &__image-third {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/2172105/original/425088_276026472532108_1604015609_n.jpg?1522162168");
+  }
+
+  &__image-fourth {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/2166664/original/10441139_572442776201129_1317367647166905221_n.jpg?1522160463");
+  }
+
+  &__image-fifth {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/2170010/original/10991366_10153066803029800_1884419731978094919_n.jpg?1522161389");
+  }
+
+  &__image-sixth {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/2228815/original/24176634_1769680516440205_5762938446566766513_n.jpg?1522915473");
+  }
+
+  &__image-seventh {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/32807/original/9e1394c5-c701-48e9-866b-efae4d34dbcb.jpeg?1408944450");
+  }
+
+  &__image-eighth {
+    @extend %__image;
+    background-image: url("https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=230,dh=230,da=s,ds=s,cw=230,ch=230,cc=FFFFFF)/assets/images/3194658/original/a439f195-eb41-40d3-8e06-e7782934be67?1550582522");
+  }
+
+  &__text {
+    padding: 14px 12px;
+  }
+
+  &__name {
+    height: 44px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 1.47;
+    font-size: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 44.1px;
+    color: rgb(36, 40, 42);
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+
+  &__member {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(157, 160, 164);
+  }
+
+  &__number {
+    font-weight: 600;
+  }
+}

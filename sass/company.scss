@@ -1,0 +1,74 @@
+@import 'variables';
+
+.company {
+
+  &__title {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__logo {
+    top: -30px;
+    left: 17px;
+    width: 64px;
+    height: 64px;
+    box-sizing: border-box;
+    margin-right: 18px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(240, 240, 240);
+    transition-property: opacity;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    color: rgb(0, 0, 0);
+  }
+
+  &__sns {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 6px;
+  }
+
+  &__sns-link {
+    width: 18px;
+    text-align: center;
+
+    &:last-child {
+      margin-left: 7px;
+    }
+  }
+
+  &__sns-icon {
+    display: inline;
+    font-size: 18px;
+    color: rgb(106, 110, 113);
+  }
+
+  &__list {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 13px;
+  }
+
+  &__list-icon {
+    margin-top: 3px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  &__list-text {
+    margin-left: 12px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
