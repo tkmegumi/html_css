@@ -3,28 +3,20 @@
 .mission {
 
   &__title {
-    width: 100%;
-    margin-top: 40px;
     padding: 0 17px;
     font-weight: 700;
     font-size: 22px;
     line-height: 1.45;
     color: rgba(0, 0, 0, 0.8);
-    outline: none;
-    box-sizing: border-box;
   }
 
   &__content {
     margin-top: 12px;
-    margin-bottom: 60px;
     padding: 0 17px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: rgba(0, 0, 0, 0.56);
     text-align: left;
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
-    outline: none;
   }
 }

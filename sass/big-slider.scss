@@ -1,16 +1,13 @@
 @import 'variables';
 
 .big-slider {
-  position: relative;
   display: flex;
-  width: 100%;
-  overflow-x: hidden;
+  overflow-x: auto;
 
   &__item {
     flex-shrink: 0;
-    flex-grow: 0;
     width: 100%;
-    margin: 30px 16px 60px 0;
+    margin-right: 16px;
   }
 
   &__image-wrapper {
@@ -29,10 +26,10 @@
   &__text {
     font-weight: 600;
     color: rgba(0, 0, 0, 0.8);
-    text-overflow: ellipsis;
     line-height: 1.5;
     font-size: 16px;
     max-height: 48px;
+    text-overflow: ellipsis;
     overflow: hidden;
   }
 }

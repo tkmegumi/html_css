@@ -26,19 +26,13 @@
     margin-bottom: 15px;
 
     &:nth-child(even) > a {
-      padding: 0 0 0 48px;
-    }
-
-    &:nth-child(even) > a > img {
-      left: 10px;
+      margin-left: 10px;
     }
   }
 
   &__app-link {
-    display: table;
-    padding: 0 10px 0 38px;
-    position: relative;
-    padding-left: 38px;
+    display: flex;
+    align-items: center;
     height: 32px;
     font-size: 11px;
     color: #24282A;
@@ -47,16 +41,9 @@
   &__app-image {
     width: 32px;
     height: 32px;
-    position: absolute;
-    left: 0;
-    top: 0;
+    margin-right: 4px;
     border-radius: 8px;
     border: 1px solid #f0f0f0;
-  }
-
-  &__app-name {
-    display: table-cell;
-    vertical-align: middle;
   }
 
   &__menu-top {

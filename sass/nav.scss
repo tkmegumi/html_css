@@ -4,7 +4,6 @@
   position: sticky;
   top: 0;
   display: flex;
-  width: 100%;
   height: 50px;
   background: white;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
@@ -12,11 +11,9 @@
   
   &__left {
     display: flex;
-    margin: 0;
   }
 
   &__left-item {
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,23 +32,15 @@
     font-size: 14px;
     font-weight: 600;
     color: #9DA0A4;
-    text-align: center;
-    box-sizing: border-box;
   }
 
   &__left-text {
-    display: inline-block;
     line-height: 48px;
   }
 
   &__right {
     display: flex;
     margin: 0 6px 0 auto;
-  }
-
-  &__right-item {
-    position: relative;
-    height: 100%;
   }
 
   &__right-link {
@@ -74,9 +63,6 @@
   &__right-profile-image {
     width: 32px;
     height: 32px;
-    background-image: url("https://dubpy8abnqmkw.cloudfront.net/images/anonymous/anonymous.png");
-    background-size: cover;
-    background-position: center center;
     border-radius: 50%;
   }
 }

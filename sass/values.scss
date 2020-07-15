@@ -9,25 +9,17 @@
   }
 
   &__list {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    overflow-wrap: break-word;
     padding: 25px 0px;
     border-bottom: 1px solid rgb(238, 238, 238);
+    box-sizing: border-box;
 
     &:first-child {
       margin-top: 30px;
       border-top: 1px solid rgb(238, 238, 238);
     }
-
-    &:last-child {
-      margin-bottom: 60px;
-    }
   }
 
   &__title {
-    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
   }
@@ -48,14 +40,11 @@
 
   &__content {
     display: none;
-    flex-grow: 1;
     width: 100%;
     padding-top: 20px;
     font-weight: 400;
     font-size: 13px;
     line-height: 1.85;
     color: rgba(0, 0, 0, 0.56);
-    white-space: pre-wrap;
-    overflow: hidden;
   }
 }
