@@ -3,6 +3,68 @@
 .teams {
 
   &__inner {
-    margin: 0 30px 0 16px;
+    margin-left: 16px;
+  }
+
+  &__lists {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  &__list {
+    flex-shrink: 0;
+    width: 60%;
+    margin-right: 16px;
+  }
+
+  &__link {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+  }
+
+  &__images {
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: grey;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__text {
+    padding: 14px 12px;
+  }
+
+  &__name {
+    height: 44px;
+    font-weight: 600;
+    line-height: 1.47;
+    font-size: 15px;
+    max-height: 44.1px;
+    color: rgb(36, 40, 42);
+    margin-bottom: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &__member {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(157, 160, 164);
+  }
+
+  &__number {
+    font-weight: 600;
   }
 }

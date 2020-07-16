@@ -5,4 +5,46 @@
   &__inner {
     margin: 0 16px;
   }
+
+  &__lists {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__list {
+    width: 25%;
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    margin: 0 auto;
+    padding-bottom: 19px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__icon {
+    width: 75%;
+    max-width: 110px;
+    margin: 0px auto 8px;
+    border-radius: 50%;
+    vertical-align: bottom;
+  }
+
+  &__icon-selected {
+    width: 12%;
+    height: 2px;
+    margin: 19px auto 0px;
+    background-color: rgb(106, 110, 113);
+    border-radius: 1.5px;
+  }
+
+  &__name {
+    font-size: 13px;
+    font-weight: 600;
+  }
 }
