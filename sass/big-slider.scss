@@ -1,0 +1,35 @@
+@import 'variables';
+
+.big-slider {
+  display: flex;
+  overflow-x: auto;
+
+  &__item {
+    flex-shrink: 0;
+    width: 92%;
+    margin-right: 16px;
+  }
+
+  &__image-wrapper {
+    height: 190px;
+    margin-bottom: 12px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  &__text {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    font-size: 16px;
+    max-height: 48px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

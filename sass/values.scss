@@ -1,0 +1,49 @@
+@import 'variables';
+
+.values {
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+  }
+
+  &__list {
+    padding: 25px 0px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    box-sizing: border-box;
+
+    &:first-child {
+      border-top: 1px solid rgb(238, 238, 238);
+    }
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title-text {
+    font-size: 18px;
+    line-height: 1.52;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  &__title-icon {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.12);
+    margin-right: 10px;
+    line-height: 0;
+  }
+
+  &__content {
+    display: none;
+    width: 100%;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.85;
+    color: rgba(0, 0, 0, 0.56);
+  }
+}

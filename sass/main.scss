@@ -1,0 +1,40 @@
+@import 'variables';
+
+.main {
+
+  &__list {
+    margin-bottom: 60px;
+
+    &:first-child {
+      margin-top: 40px;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__list-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 16px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(157, 160, 164);
+  }
+
+  &__list-header-link {
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 13px;
+    color: #006F8E;
+  }
+
+  &__list-header-icon {
+    font-size: 14px;
+    margin-left: 6px;
+    line-height: 23px;
+    opacity: 0.8;
+  }
+}

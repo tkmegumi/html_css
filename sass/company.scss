@@ -1,0 +1,80 @@
+@import 'variables';
+
+.company {
+
+  &__inner {
+    margin: 0 16px 40px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  &__logo {
+    top: -30px;
+    left: 17px;
+    width: 64px;
+    height: 64px;
+    margin-right: 18px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(240, 240, 240);
+    box-sizing: border-box;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    color: rgb(0, 0, 0);
+  }
+
+  &__sns {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+  }
+
+  &__sns-link {
+    width: 18px;
+    text-align: center;
+
+    &:last-child {
+      margin-left: 7px;
+    }
+  }
+
+  &__sns-icon {
+    font-size: 18px;
+    color: rgb(106, 110, 113);
+  }
+
+  &__list {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 13px;
+  }
+
+  &__list-icon {
+    margin-top: 3px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  &__list-text {
+    margin-left: 12px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  &__map-wrapper {
+    height: 350px;
+    padding-bottom: 20px;
+  }
+  
+  &__map {
+    width: 100%;
+    height: 100%;
+  }
+}

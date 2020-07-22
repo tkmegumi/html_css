@@ -1,0 +1,22 @@
+@import 'variables';
+
+.mission {
+
+  &__title {
+    padding: 0 17px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.45;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  &__content {
+    margin-top: 12px;
+    padding: 0 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(0, 0, 0, 0.56);
+    text-align: left;
+  }
+}
